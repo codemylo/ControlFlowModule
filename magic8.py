@@ -1,7 +1,7 @@
 import random
 
 name = "Mylo"
-question = "Can I become the best software developer/engineer in the world?"
+question = "Im a great?"
 answer = ""
 
 random_number = random.randint(1, 11)
@@ -37,4 +37,4 @@ if question == "":
   print("The Magic 8-Ball can not provide a fortune unless you ask it something.")
 else:
   print(name + " asks:\n" + question)
-  print("\nMagic 8-Ball's answer:\n" + answer)
+  print("\n🎱: " + answer)
